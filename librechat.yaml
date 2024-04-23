@@ -50,7 +50,7 @@ rateLimits:
 
 registration:
   socialLogins: ["google", "openid"]
-  allowedDomains: "swan.io"
+  allowedDomains: ["swan.io"]
 
 endpoints:
   custom:

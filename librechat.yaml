@@ -18,9 +18,9 @@ fileConfig:
     assistants:
       fileLimit: 5
       # Maximum size for an individual file in MB
-      fileSizeLimit: 10
+      fileSizeLimit: 50
       # Maximum total size for all files in a single request in MB
-      totalSizeLimit: 50 
+      totalSizeLimit: 100
       # In case you wish to limit certain filetypes
       # supportedMimeTypes: 
       #   - "image/.*"
@@ -29,13 +29,13 @@ fileConfig:
     # Disables file uploading to the OpenAI endpoint
       disabled: false
     default:
-      totalSizeLimit: 20
+      totalSizeLimit: 100
     # Example for custom endpoints
     # YourCustomEndpointName:
     #   fileLimit: 2
     #   fileSizeLimit: 5
   # Global server file size limit in MB
-  serverFileSizeLimit: 100  
+  serverFileSizeLimit: 200  
   # Limit for user avatar image size in MB, default: 2 MB
   avatarSizeLimit: 4 
   
